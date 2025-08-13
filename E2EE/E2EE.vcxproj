@@ -166,6 +166,7 @@
     <Folder Include="bin\" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\CryptoHelper.cpp" />
     <ClCompile Include="src\E2EE.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>

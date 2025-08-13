@@ -10,5 +10,13 @@ public:
 
     ~Server();
 
+    bool Start();
+    void WaitForClient();
+    void ReceiveEncryptedData();
+
 private:
+    int m_port;
+    int m_clientSocket;
+    NetworkHelper m_networkHelper;
+    CryptoHelper m_cryptoHelper;
 };
